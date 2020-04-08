@@ -1,2 +1,2 @@
 # devlogy
-Fictional It Brant website
+website for fictional It brand
