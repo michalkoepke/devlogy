@@ -1,51 +1,56 @@
 const navSlide = () => {
-    const burger = document.querySelector('.burger');
-    const test = document.querySelector('.nav-inside');
+  const burger = document.querySelector('.burger');
+  const test = document.querySelector('.nav-inside');
 
 
 
-    burger.addEventListener('click', () => {
-        test.classList.toggle('nav-inside-active');
+  burger.addEventListener('click', () => {
+    test.classList.toggle('nav-inside-active');
 
 
 
 
-    });
+  });
 }
 
 
 const iconToggle = () => {
 
-    const ikona = document.querySelector('.burger i');
-    console.log(ikona);
+  const ikona = document.querySelector('.burger i');
+  console.log(ikona);
 
-    ikona.addEventListener('click', () => {
+  ikona.addEventListener('click', () => {
 
-        ikona.classList.toggle('fa-times');
+    ikona.classList.toggle('fa-times');
 
-    });
+  });
 
 }
 
 var mybutton = document.getElementById("floating");
 
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () { scrollFunction() };
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () { scrollFunction() };
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "flex";
-        } else {
-            mybutton.style.display = "none";
-        }
-    }
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "flex";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
 
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
 
+
+
+navSlide();
+iconToggle();
+mybutton();
 
 
 
@@ -70,11 +75,11 @@ const closeBtn = document.querySelector('.close');
 
 
 modalBtns.forEach(
-    function(currentValue) {
-      console.log(currentValue);
-      currentValue.addEventListener('click', openModal);
-    }
-  );
+  function (currentValue) {
+    console.log(currentValue);
+    currentValue.addEventListener('click', openModal);
+  }
+);
 
 
 console.log(modalBtns);
@@ -109,8 +114,5 @@ function outsideClick(e) {
 }
 
 
-navSlide();
-iconToggle();
-mybutton();
 
 
