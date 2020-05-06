@@ -111,5 +111,6 @@ function outsideClick(e) {
 
 navSlide();
 iconToggle();
+mybutton();
 
 
