@@ -59,7 +59,7 @@ iconToggle();
 // MODAL - Get DOM Elements
 
 const modal = document.querySelector('#my-modal');
-const modalBtns = document.querySelectorAll(".modalbutton-buy, .modalbutton-try, .sendbutton, button2, button2-right");
+const modalBtns = document.querySelectorAll(".modalbutton-buy, .modalbutton-try, .sendbutton, .button2, .button2-right");
 
 //tu sprawdzamy czy sie wybierają elementy
 

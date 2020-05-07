@@ -283,8 +283,15 @@ h2.modal {
 }
 
 .modal-body {
-    padding: 10px 20px;
+    padding: 3rem;
     background: #fff;
+}
+
+.modal-body h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #002c40;
+    margin-top: 2rem;
 }
 
 .close {
@@ -2485,6 +2492,22 @@ li.footer a:hover {
     figure.box2 {
         margin-top: 0;
     }
+
+
+    .modal-content {
+        margin-top: 30%;
+        height: auto;
+        width: 85%;
+    }
+
+    .modal-body {
+        height: 100%;
+        padding: 2rem;
+    }
+
+
+
+
 }
 
 @media screen and (max-width: 600px) {
@@ -2837,6 +2860,23 @@ li.footer a:hover {
         width: 100%;
         padding: 0rem;
     }
+
+
+    .modal-content {
+        margin-top: 6rem;
+        height: auto;
+        width: 85%;
+    }
+
+    .modal-body {
+        height: 100%;
+        padding: 2rem;
+    }
+
+
+
+
+
 }
 
 /* KONIEC MEDIA QUERIES 1 */
