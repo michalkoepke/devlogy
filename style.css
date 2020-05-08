@@ -845,7 +845,7 @@ blockquote span {
 }
 
 #main_naglowek-prices {
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
@@ -2915,7 +2915,7 @@ li.footer a:hover {
 
 @media screen and (max-width: 600px) {
     #main_naglowek-prices {
-        /* height: 100vh; */
+        height: auto;
         width: 100%;
         margin: 0 auto;
         /* padding-top: 20px; */
