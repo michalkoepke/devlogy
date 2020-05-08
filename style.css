@@ -573,6 +573,7 @@ p5.test {
     border: none;
     font-family: "Montserrat", sans-serif;
     transition: bacground-color 0.5s;
+    border-radius: 2px;
     /* box-shadow: 5px 10px 25px #154e64; */
 }
 
@@ -594,6 +595,7 @@ p5.test {
     text-align: center;
     text-decoration: none;
     width: 150px;
+    border-radius: 2px;
     border: none;
     font-family: "Montserrat", sans-serif;
     transition: background-color 0.5s;
@@ -995,9 +997,10 @@ a.buttonbig {
     text-decoration: none;
     padding: 15px 30px;
     font-size: 1.3rem;
+    font-weight: 400;
     margin-top: 50px;
     align-self: flex-start;
-    /* border-radius: 100px; */
+    border-radius: 2px;
 }
 
 a.buttonbig:hover {
