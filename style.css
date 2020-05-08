@@ -267,6 +267,10 @@ h2.modal {
     animation-name: modalopen;
     animation-duration: var(--modal-duration);
     text-align: center;
+
+
+
+    
 }
 
 
@@ -277,7 +281,7 @@ h2.modal {
 
 .modal-header {
   background-color: #fff;
-  padding: 15px;
+  padding: 5px;
   
   
 }
@@ -303,6 +307,8 @@ h2.modal {
     float: right;
     font-size: 30px;
     color: #000;
+    margin-right: 7px;
+    
 }
 
 .close:hover,
@@ -768,7 +774,7 @@ blockquote {
     position: relative;
     vertical-align: super;
     width: 45%;
-    min-width: 350px;
+    min-width: 300px;
     z-index: 0;
     /* overflow: hidden; */
 }
@@ -2833,7 +2839,7 @@ li.footer a:hover {
 
     .prices-description-wrapper {
         width: 100%;
-        padding: 2rem;
+        padding: 1rem;
     }
 
     table.mobile {
@@ -2866,6 +2872,7 @@ li.footer a:hover {
         /* display: none; */
         width: 100%;
         padding: 0rem;
+        padding-bottom: 4rem;
     }
 
 
@@ -2873,11 +2880,27 @@ li.footer a:hover {
         margin-top: 6rem;
         height: auto;
         width: 85%;
+        
+
+        
+
     }
 
     .modal-body {
         height: 100%;
         padding: 2rem;
+    }
+
+    .modal-body svg {
+        height: 4rem;
+    }
+
+    .modal-body h2 {
+        font-size: 1.2rem;
+    }
+
+    .modal-body p {
+        font-size: 0.9rem;
     }
 
 
