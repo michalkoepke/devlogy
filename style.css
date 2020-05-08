@@ -294,6 +294,10 @@ h2.modal {
     margin-top: 2rem;
 }
 
+.modal-body p {
+    color: #002c40;
+}
+
 .close {
     
     float: right;
