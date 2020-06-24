@@ -114,5 +114,13 @@ function outsideClick(e) {
 }
 
 
+// const submit = document.querySelector('submit');
+// console.log(submit);
 
-
+const form = document.querySelector('#formularz');
+// const username = document.querySelector('#username');
+ 
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  // console.log(username.value);
+});
